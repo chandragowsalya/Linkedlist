@@ -39,7 +39,7 @@ class Solution {
         leftpre.next = preNode;
         sublisthead.next = currNode;
 
-        return head;
+        return dummy.next;
     }
     // return head;
 }
